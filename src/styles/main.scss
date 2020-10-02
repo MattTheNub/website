@@ -1,0 +1,49 @@
+@use 'variables' as v;
+@use 'fonts';
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgb(16, 16, 23);
+  color: white;
+  font-family: v.$font-stack;
+}
+
+#header {
+  user-select: none;
+  h1 {
+    width: 100%;
+    text-align: center;
+    letter-spacing: 20px;
+    font-weight: 300;
+    font-family: v.$title-fonts;
+    padding-top: 6vh;
+  }
+
+  .open-source {
+    a {
+      color: #aaa;
+    }
+    float: right;
+    padding-right: 10vw;
+    font-size: 0.9em;
+  }
+}
+
+a {
+  color: orange;
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.7;
+  }
+  transition: 0.15s opacity;
+}
+
+#content {
+  margin: 10vh 10vw;
+}
