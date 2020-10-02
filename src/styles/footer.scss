@@ -1,27 +1,27 @@
 #footer {
-  border-top: 1px solid #bbb;
+	border-top: 1px solid #bbb;
 
-  margin: 0 10vw;
-  padding: 5vh 0;
-  display: flex;
-  flex-flow: row;
-  bottom: 0;
-  position: absolute;
-  width: 80vw;
+	margin: 0 10vw;
+	padding: 5vh 0;
+	display: flex;
+	flex-flow: row;
+	bottom: 0;
+	position: relative;
+	width: 80vw;
 
-  .footer-section {
-    > :first-child {
-      font-weight: 700;
-      color: #ddd;
-    }
+	.footer-section {
+		> :first-child {
+			font-weight: 700;
+			color: #ddd;
+		}
 
-    a {
-      color: #999;
-      transition: 0.15s opacity;
-    }
+		a {
+			color: #999;
+			transition: 0.15s opacity;
+		}
 
-    color: #ccc;
-    display: flex;
-    flex-flow: column;
-  }
+		color: #ccc;
+		display: flex;
+		flex-flow: column;
+	}
 }

@@ -4,31 +4,31 @@ import Content from '../components/content'
 import Footer from '../components/footer'
 
 const Contact = () => {
-  return (
-    <>
-      <Header />
-      <Content>
-        <p>Here are some ways you can contact me:</p>
-        <ul>
-          <li>
-            Send me an email at{' '}
-            <a href="mailto:matt@mattthenub.dev">matt@matthenub.dev</a>
-          </li>
-          <li>
-            DM me on Twitter:{' '}
-            <a
-              href="https://twitter.com/MattRustacean"
-              target="_blank"
-              rel="noreferrer"
-            >
-              @MattRustacean
-            </a>
-          </li>
-        </ul>
-      </Content>
-      <Footer />
-    </>
-  )
+	return (
+		<>
+			<Header title="Contact" />
+			<Content>
+				<p>Here are some ways you can contact me:</p>
+				<ul>
+					<li>
+						Send me an email at{' '}
+						<a href="mailto:matt@mattthenub.dev">matt@matthenub.dev</a>
+					</li>
+					<li>
+						Message me on Matrix:{' '}
+						<a
+							href="https://matrix.to/#/@mattthenub:matrix.org"
+							target="_blank"
+							rel="noreferrer"
+						>
+							@mattthenub:matrix.org
+						</a>
+					</li>
+				</ul>
+			</Content>
+			<Footer />
+		</>
+	)
 }
 
 export default Contact
