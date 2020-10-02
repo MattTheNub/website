@@ -19,7 +19,7 @@ const Footer = () => (
       </span>
       <span>
         Font files are available{' '}
-        <a href="https://github.com/MattTheNub/website/tree/master/styles/fonts">
+        <a href="https://github.com/MattTheNub/website/tree/main/src/styles/fonts">
           on GitHub
         </a>
       </span>
