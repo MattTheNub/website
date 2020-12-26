@@ -1,0 +1,10 @@
+.copyable {
+  .copyable-text {
+    font-family: monospace;
+    white-space: pre;
+    user-select: all;
+  }
+  .copyable-button {
+    margin-left: 5px;
+  }
+}
