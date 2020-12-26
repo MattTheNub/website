@@ -47,3 +47,16 @@ a {
 #content {
   margin: 10vh 10vw;
 }
+
+button {
+  background: none;
+  padding: 4px;
+  border: 1px solid #ddd;
+  color: #ddd;
+  border-radius: 6px;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
