@@ -17,11 +17,11 @@ const Contact = () => {
           <li>
             Message me on Matrix:{' '}
             <a
-              href="https://matrix.to/#/@mattthedev:matrix.org"
+              href="https://matrix.to/#/@mattthenub:matrix.org"
               target="_blank"
               rel="noreferrer"
             >
-              @mattthedev:matrix.org
+              @mattthenub:matrix.org
             </a>
           </li>
         </ul>
