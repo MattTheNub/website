@@ -15,13 +15,13 @@ const Contact = () => {
             <a href="mailto:matt@mattthenub.dev">matt@matthenub.dev</a>
           </li>
           <li>
-            DM me on Twitter:{' '}
+            Message me on Matrix:{' '}
             <a
-              href="https://twitter.com/MattRustacean"
+              href="https://matrix.to/#/@mattthedev:matrix.org"
               target="_blank"
               rel="noreferrer"
             >
-              @MattRustacean
+              @mattthedev:matrix.org
             </a>
           </li>
         </ul>
