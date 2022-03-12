@@ -10,7 +10,8 @@
 		"format": "prettierx --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
 		"start": "yarn dev",
 		"serve": "gatsby serve",
-		"clean": "gatsby clean"
+		"clean": "gatsby clean",
+		"tset": "node -v"
 	},
 	"dependencies": {
 		"@material-ui/icons": "^4.9.1",

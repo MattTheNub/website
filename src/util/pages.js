@@ -5,11 +5,6 @@ const pages = [
 		path: '/',
 	},
 	{
-		id: 'blog',
-		name: 'Blog',
-		path: '/blog/',
-	},
-	{
 		id: 'contact',
 		name: 'Contact',
 		path: '/contact',
